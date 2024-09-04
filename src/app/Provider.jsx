@@ -12,7 +12,7 @@ export default function Provider( {children} ) {
     <NextUIProvider>
        <NextThemesProvider attribute="class" defaultTheme="dark">
         {children}
-      </NextThemesProvider>
+      </main>
     </NextUIProvider>
   );
 }
