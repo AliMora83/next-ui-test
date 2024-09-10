@@ -53,10 +53,10 @@ const config: Config = {
             background: "#FFFFFF", // or DEFAULT
             foreground: "#212121", // or 50 to 900 DEFAULT
             primary: {
+              newgrey: "#f2f2f2",
               //... 50 to 900
               foreground: "#FFFFFF",
               DEFAULT: "#006FEE",
-   
             },
             layout: {
               hoverOpacity: 0.8, //  this value is applied as opacity-[value] when the component is hovered
@@ -75,13 +75,13 @@ const config: Config = {
           },
           dark: {
             colors: {
-              background: "#000000", // or DEFAULT
+              background: "#0E1325", // or DEFAULT
               foreground: "#ECEDEE", // or 50 to 900 DEFAULT
               primary: {
+                newgrey: "#1D2135",
                 //... 50 to 900
-                foreground: "#FFFFFF",
+                foreground: "#1D2135",
                 DEFAULT: "#006FEE",
-       
               },
             },
             layout: {
